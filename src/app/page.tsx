@@ -2,5 +2,5 @@
 // import styles from "./page.module.css";
 
 export default function Home() {
-  return <div>adsdadsadasda</div>;
+  return <div></div>;
 }

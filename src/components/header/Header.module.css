@@ -1,0 +1,37 @@
+.page{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 80px;
+}   
+.Links{
+    gap: 41px 47px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    margin-left: 319px;
+    text-decoration: none;
+}
+.me{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 14px;
+    margin: 0 auto;
+}
+.Img{
+    padding-top: 60px;
+}
+.link{
+    color: black;
+}
+.block{
+    font-size: 12px;
+    display: flex;
+    margin: 26px;
+    gap: 26px;
+    padding: 40px;
+}
+
