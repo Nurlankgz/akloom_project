@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     padding: 40px;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
     margin: 0 auto;
 }
 .Img{
@@ -33,5 +33,47 @@
     margin: 26px;
     gap: 26px;
     padding: 40px;
+
+}
+.paragrave{
+    padding: 60px 80px 30px;
+    font-size: 32px;
+}
+.blace{
+    max-width: 300px;
+    height: 384px;
+    gap: 26px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+.circle{
+    font-size: 18px;
+}
+.para{
+    font-size: 12px;
+    color: #666;
+    line-height: 1,4;
+}
+.btn{
+    width: 157px;
+    height: 40px;
+    border-radius: 12px;
+}
+.btn1{
+    display: flex;
+    text-align: center;
+}
+.btn2{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+}
+.block2{
+    display: flex;
+    padding: 80px 60px;
+    gap: 26px;
 }
 
