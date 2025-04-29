@@ -63,6 +63,7 @@
   text-align: center;
   border-radius: 32px;
   margin-bottom: 100px;
+  width: 1200px;
 }
 
 .container {
@@ -118,4 +119,11 @@
 
 .button:hover {
   background-color: #1a1a40;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  gap: 20px;
+  justify-items: center;
 }
