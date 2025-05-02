@@ -1,0 +1,36 @@
+.form {
+  margin-bottom: 30px;
+}
+
+.textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  resize: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.stars {
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc;
+  margin-right: 5px;
+}
+
+.filled {
+  color: gold;
+}
+
+.btn {
+  background-color: #000033;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

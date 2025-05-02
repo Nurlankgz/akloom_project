@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.stars {
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 20px;
+  color: #ccc;
+  margin-right: 3px;
+}
+
+.filled {
+  color: gold;
+}
