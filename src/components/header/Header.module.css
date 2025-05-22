@@ -7,25 +7,39 @@
 }   
 .Links{
     gap: 41px 47px;
-    display: flex;
     align-items: center;
     font-size: 14px;
     color: black;
-    margin-left: 319px;
+    margin-left: 300px;
     text-decoration: none;
 }
+.link{
+    color: #070422;
+}
+.LinksHref{
+    gap: 41px 47px;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    margin-left: 300px;
+    text-decoration: none;
+    display: flex;
+}
+
 .me{
     display: flex;
     align-items: center;
     padding: 40px;
     padding-bottom: 14px;
     margin: 0 auto;
+    gap: 15px;
 }
 .Img{
     padding-top: 60px;
 }
-.link{
-    color: black;
+
+.icon{
+    padding-top: 30px;
 }
 .block{
     font-size: 12px;
@@ -35,14 +49,16 @@
     padding: 40px;
 
 }
+
 .paragrave{
     padding: 60px 80px 30px;
     font-size: 32px;
 }
 .blace{
     max-width: 300px;
-    height: 384px;
-    gap: 26px;
+    height: 380px;
+    box-shadow: 0 0  5px #0000004d;
+    border-radius: 20px;
 }
 .rating{
     display: flex;
@@ -55,7 +71,11 @@
 .para{
     font-size: 12px;
     color: #666;
-    line-height: 1,4;
+    width: 250px;
+}
+.pageDisplay{
+    display: flex;
+    gap: 26px;
 }
 .btn{
     width: 157px;
@@ -73,7 +93,274 @@
 }
 .block2{
     display: flex;
-    padding: 80px 60px;
+    padding: 80px 60px ;
     gap: 26px;
+    padding-top: 30px;
+    padding-left: 82px ;
 }
+.Controls {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 30px;
+    padding-left: 800px;
+  }
+  .carousel{
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid #070422;
+    display: flex;
+    justify-content: center;
+  } 
+  .product{
+  border-radius: 10px;
+  justify-content: center;
+  }
+.quetion{
+    font-size: 32px;
+}
+.ourCompany{
+    width: 615;
+    height: 173px;
+    text-align: center;
+}
+.history{
+    font-size: 12px;
+}
+.question{
+    padding-top: 60px;
+    gap: 41px 47px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    margin-left: 319px;
+    text-decoration: none;
+}
+.comment{
+    font-size: 32px;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+.review{
+    max-width: 400px;
+    height: 335px;
+    box-shadow: 0 0  5px #0000004d;
+    border-radius: 12px;
+}
+.actions button {
+    background: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s;
+  }
+  
+  .actions button:hover {
+    background: #f0f0f0;
+  }
+  .card{
+    max-width: 300px;
+    height: 380px;
+    box-shadow: 0 0  5px #0000004d;
+    border-radius: 20px;
+  }
+  .commentPeople{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .productDesc{
+    margin-top: 20px;
+    width: 340px;
+  }
+ 
+   .Info{
+    display: flex;
+    flex-direction: column;
+   }
+    
+    .Comment{
+        display: flex;
+        gap: 26px;
+        justify-content: center;
+    }
+    .Nikname{
+        display: flex;
+        flex-direction: column;
 
+    }
+    
+      
+      .image {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+      
+      .content {
+        padding: 16px;
+      }
+      
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 142px;
+      }
+      
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+      }
+      
+   
+      .info {
+        background-color: #f9f9f9;
+        padding: 80px 20px;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 1200px;
+        height: 402px;
+        margin-bottom: 100px;
+        margin-top: 150px;
+      }
+      
+      .title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 32px;
+        color: #0b0b26;
+      }
+      
+      .input {
+        padding: 12px 12px 12px 40px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+        width: 488px;
+      }
+      .inputWrapper {
+        position: relative;
+        width: 100%;
+      }
+      .btn2{
+        width: 192px;
+      }
+      .Links2{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+
+      }
+      
+      .pictures{
+        width: 330px;
+        height: 450px;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        font-family: sans-serif;
+        flex-wrap: wrap;
+        display: flex;
+      }
+      .button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+      }
+      .work{
+        
+        padding-top: 30px;
+        padding-left: 200px;
+      }
+      .image {
+        object-fit: cover;
+      }
+      
+      .content {
+        padding: 16px;
+      }
+      
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+      }
+      
+      .rating {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: #f7b500;
+        font-weight: bold;
+      }
+      
+      .description {
+        font-size: 14px;
+        color: #666;
+        margin: 12px 0;
+      }
+      
+      .actions {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+      }
+      
+      .action {
+        flex: 1;
+        height: 40px;
+        background: #f4f4f4;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        padding: 0 8px;
+        white-space: nowrap;
+        max-width: 40px;
+      
+        svg {
+          font-size: 16px;
+          flex-shrink: 0;
+        }
+      
+        span {
+          opacity: 0;
+          transform: translateX(-10px);
+          transition: opacity 0.3s ease, transform 0.3s ease;
+          font-size: 14px;
+          color: #333;
+          flex-shrink: 0;
+        }
+      
+        &:hover {
+          max-width: 160px;
+          background: #e8e8e8;
+      
+          span {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      }
+     

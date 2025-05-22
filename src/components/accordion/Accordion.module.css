@@ -1,0 +1,54 @@
+.accordion {
+    max-width: 1280px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    background-color: #0a0a23;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .iconOpen {
+    transform: rotate(45deg);
+  }
+  
+  .contentWrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .open {
+    max-height: 500px;
+  }
+  
+  .content {
+    padding: 0 16px 16px;
+    font-size: 14px;
+    color: #333;
+  }
