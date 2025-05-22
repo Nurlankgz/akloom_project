@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import { Review } from "../components/types/comment";
-import { ReviewForm } from "../components/comment/ReviewForm";
-import { ReviewList } from "../components/comment/ReviewList";
+import { Review } from "../../components/types/comment";
+import { ReviewForm } from "../../components/comment/ReviewForm";
+import { ReviewList } from "../../components/comment/ReviewList";
 
 export default function Comment() {
   const [text, setText] = useState("");

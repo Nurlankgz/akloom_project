@@ -34,7 +34,7 @@
 }
 
 .iconOpen {
-  transform: rotate(45deg); /* превращает + в × */
+  transform: rotate(45deg); 
 }
 
 .contentWrapper {
@@ -44,7 +44,7 @@
 }
 
 .open {
-  max-height: 500px; /* или больше, если нужно */
+  max-height: 500px; 
 }
 
 .content {

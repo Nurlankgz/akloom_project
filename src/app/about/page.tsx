@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-
+// import Comment from "@/comments/page";
 import { BiEnvelope } from "react-icons/bi";
 import { Accordion } from "@/components/Accordion/Accordion";
 
@@ -87,6 +87,7 @@ export default function Page() {
           </button>
         </form>
       </div>
+      {/* <Comment /> */}
     </div>
   );
 }

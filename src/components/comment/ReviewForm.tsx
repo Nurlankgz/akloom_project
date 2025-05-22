@@ -20,8 +20,8 @@ export const ReviewForm: React.FC<Props> = ({
     <div className={styles.form}>
       <h3>Оставьте свой короткий отзыв</h3>
       <textarea
-        placeholder="Отзыв должен составлять не более чем 300 символов"
-        maxLength={300}
+        placeholder="Отзыв должен составлять не более чем 500 символов"
+        maxLength={500}
         value={text}
         onChange={(e) => setText(e.target.value)}
         className={styles.textarea}

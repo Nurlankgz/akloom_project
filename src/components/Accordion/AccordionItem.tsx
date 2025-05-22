@@ -24,7 +24,6 @@ export const AccordionItem: FC<Props> = ({
       <div className={cn(styles.contentWrapper, { [styles.open]: isOpen })}>
         <div className={styles.content}>{children}</div>
       </div>
-        
     </div>
   );
 };

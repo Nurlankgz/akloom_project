@@ -33,8 +33,7 @@ export const Accordion: FC = () => {
         >
           {item.content}
         </AccordionItem>
-      ))}
-        
+      ))} 
     </div>
   );
 };

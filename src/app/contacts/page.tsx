@@ -1,9 +1,9 @@
-import React from "react";
 import styles from "./index.module.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { BiEnvelope } from "react-icons/bi";
 
-export default function Map() {
+
+export default function ContactPage() {
   return (
     <>
       <div className={styles.grid}>
@@ -63,6 +63,7 @@ export default function Map() {
             </button>
           </form>
         </div>
+
       </div>
     </>
   );
