@@ -1,14 +1,17 @@
 import Header from "@/components/header/Header";
 import Footer from "../components/footer/Footer";
 import "./globals.css";
-import Home from "./page";
 
-export default function RootLayout({}) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
-        <Header/>
-        <Home />
+        <Header />
+        {children}
         <Footer />
       </body>
     </html>

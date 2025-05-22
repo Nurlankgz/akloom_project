@@ -1,0 +1,126 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.about {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 130px;
+}
+.aboutTitle {
+  font-weight: 600;
+  font-size: 60px;
+  color: #070422;
+}
+.aboutText {
+  font-weight: 400;
+  font-size: 20px;
+  color: #959595;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  width: 574px;
+  text-align: start;
+  justify-content: center;
+}
+.infoTexts {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.infoTitle {
+  font-weight: 600;
+  font-size: 32px;
+  color: #070422;
+}
+.infoText {
+  font-weight: 400;
+  font-size: 20px;
+  color: #959595;
+  width: 630px;
+}
+.compans {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 150px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+.compan {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 630px;
+}
+.companTitle {
+  font-weight: 600;
+  font-size: 38px;
+  color: #000;
+  text-align: start;
+}
+.companText {
+  font-weight: 400;
+  font-size: 24px;
+  color: #959595;
+  text-align: start;
+}
+
+.info {
+  background-color: #f9f9f9;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 20px;
+  width: 1200px;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #0b0b26;
+}
+
+.input {
+  padding: 12px 12px 12px 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 488px;
+}
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.btn {
+  background-color: #0b0b26;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+}
+.form {
+  display: inline-flex;
+}
+
+.button:hover {
+  background-color: #1a1a40;
+}
+
+.icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
